@@ -1,7 +1,7 @@
 ## 检测 data class 是否打上注解 @Keep
 
-本库只有一个作用，检测 data class 是否打上注解 @Keep ,遗漏则爆红，并且无法编译通过
-血的教训换来的库，望珍惜！
+本库只有一个作用，检测 data class 是否打上注解 @Keep ,遗漏则报红！
+
 
 ### Step 1. Add the JitPack repository to your build file
 
