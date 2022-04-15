@@ -15,7 +15,7 @@ Add it in your root build.gradle at the end of repositories:
 	}
 ```
 
-![RELEASE](https://jitpack.io/#jarryleo/LintChecker/Tag)
+[![](https://jitpack.io/v/jarryleo/LintChecker.svg)](https://jitpack.io/#jarryleo/LintChecker)
 
 ### Step 2. Add the dependency
 
