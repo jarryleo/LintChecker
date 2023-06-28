@@ -6,9 +6,9 @@ import com.android.tools.lint.detector.api.Issue
 /**
  * @author : ling luo
  * @date : 2022/4/15
- * @description : Android keep reg
+ * @description : Android lint reg
  */
-class AndroidLintChecherRegistry : IssueRegistry() {
+class AndroidLintCheckerRegistry : IssueRegistry() {
     override val issues: List<Issue>
         get() = listOf(HardcodedTextDetector.ISSUE)
 }
