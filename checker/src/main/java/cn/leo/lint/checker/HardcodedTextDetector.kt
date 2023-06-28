@@ -70,7 +70,7 @@ class HardcodedTextDetector : Detector(), Detector.UastScanner {
             ) ?: return null
         val stringItems = resources.allResources
         for (item in stringItems) {
-            if (item.source != null && item.resourceValue?.value?.contains(value) == true) {
+            if (item.source != null && item.resourceValue?.value == value) {
                 return item.name
             }
         }

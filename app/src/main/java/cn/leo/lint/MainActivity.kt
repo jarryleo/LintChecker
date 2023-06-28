@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val test = Test()
         val text = getString(R.string.hardcoded_text)
-        val t = "硬编码"
+        val t = "硬编"
         Toast.makeText(this, "硬编码", Toast.LENGTH_SHORT).show()
         Toast.makeText(this, "硬编码1", Toast.LENGTH_SHORT).show()
     }
