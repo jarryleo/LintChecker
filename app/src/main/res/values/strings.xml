@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LintChecker</string>
+
+    <string name="hardcoded_text">硬编码</string>
 </resources>
