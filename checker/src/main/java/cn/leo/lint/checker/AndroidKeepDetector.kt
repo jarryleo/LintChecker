@@ -46,10 +46,17 @@ class AndroidKeepDetector : Detector(), SourceCodeScanner {
                         ISSUE,
                         node,
                         context.getNameLocation(node),
-                        tips
+                        tips,
+                        LintFix.create()
+                            .name("Add @Keep")
+                            .replace()
+                            .pattern("class ${node.name}")
+                            .with("@Keep \n class ${node.name}")
+                            .build()
                     )
                 }
             }
         }
+
     }
 }
